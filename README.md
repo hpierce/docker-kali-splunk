@@ -22,3 +22,4 @@ You can run it like this:
 
 docker run -p 8000:8000 -it hpierce/docker-kali-splunk /bin/bash  
 
+Open browser to: http://localhost:8000  
