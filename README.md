@@ -18,4 +18,7 @@ Add the following to $SPLUNK_HOME/etc/splunk-launch.conf:
 
 OPTIMISTIC_ABOUT_FILE_LOCKING = 1
 
+You can run it like this:  
+
+docker run -p 8000:8000 -it hpierce/docker-kali-splunk /bin/bash  
 
